@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+     background:
+        radial-gradient(circle at top left, #2b2b2b 0%, transparent 35%),
+        radial-gradient(circle at bottom right, #1f1f1f 0%, transparent 40%),
+        linear-gradient(135deg, #0d0d0d, #171717, #0a0a0a);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    width: 220px;
+    padding: 20px;
+    background-color: white;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 18px rgba(255, 255, 255, 0.18),
+        0 8px 20px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-8px);
+
+     box-shadow:
+        0 0 28px rgba(255, 255, 255, 0.35),
+        0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
+.producto h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.producto p {
+    font-size: 14px;
+    color:#666;
+}
+
+.producto h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.producto button {
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    
+
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: gray;
+}
+
+
+.producto img{
+    width: 200px;
+    height: 200px;
+    objetc-fit: contain;
+    
+
+}
+
+button {
+    
+    
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background-color: #333;
+}
+
+.estrellas {
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.boton {
+    color: white;
+    border: none;
+    border-radius: 6px;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.azul {
+    background-color: #00a8cc;
+}
+
+.violeta {
+    background-color: #2436b3;
+}
+
+.negro {
+    background-color: black;
+}
+
+.naranja {
+    background-color: #ff8c00;
+}
+
+.boton:hover {
+    transform: scale(1.08);
+    opacity: 0.85;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.volver:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
