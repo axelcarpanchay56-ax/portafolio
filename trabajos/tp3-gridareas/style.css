@@ -1,0 +1,40 @@
+
+
+
+.contenido{
+    display: grid;
+    background-color: rgb(194, 199, 197);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+section {
+    height: 200px;
+}
+
+article {
+    height: 200px;
+}
+
+aside {
+    height: 400px;
+}
+
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    border: 1px solid black;
+}
+
